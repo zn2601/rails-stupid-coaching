@@ -1,0 +1,14 @@
+<div class="container-fluid justify-content-right">
+  <h1>Stupid coaching</h1>
+    <div class="alert alert-light mt-5 border-left border-secondary">
+      <p><%= @question %></p>
+      <p>-You</p>
+    </div>
+    <div class="alert alert-warning border-left border-secondary" >
+      <p><strong><%= @answer %></strong></p>
+      <p>-Your coach</p>
+    </div>
+    <div>
+      <%= link_to "Ask a new question", ask_path %>
+    </div>
+</div>
